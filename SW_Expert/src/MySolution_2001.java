@@ -29,7 +29,7 @@ public class MySolution_2001 {
 (t는 테스트 케이스의 번호를 의미하며 1부터 시작한다.)
 */
 	public static void main(String[] args) throws Exception {
-		String path="C:\\Users\\pipyr\\downloads\\input.txt";
+		String path="";
 		System.setIn(new FileInputStream(path));
 		Scanner sc = new Scanner(System.in);
 		int T =sc.nextInt();
